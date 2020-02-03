@@ -18,7 +18,7 @@ pip install git+https://github.com/NERC-FieldSpectroscopyFacility/PyMicrotops3.g
 from PyMicrotops3 import read_from_serial
 ```
 3. Run ```read_from_serial.read_microtops_gui()``` 
-4. Input the COM port and name of the file to save data to
+4. Input the COM port and name of the .csv file, with full .csv extension and path (e.g., C:\Users\user_name\Documents\microtopsfile.csv)
 
 **Processing data from the Microtops II sun photometer**
 
