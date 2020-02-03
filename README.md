@@ -13,7 +13,8 @@ pip install git+https://github.com/NERC-FieldSpectroscopyFacility/PyMicrotops3.g
 **Reading data from Microtops II sun photometer**
 1. Connect the Microtops II sun photometer via RS-232 or a serial-to-USB connection
 2. Identify the COM port in use (e.g. on Windows, "COM6", or on Linux distributions, "/dev/ttyS0")
-3. Run ```read_microtops_gui()``` from ```read_from_serial```
+3. ```python from PyMicrotops3 import read_from_serial```
+3. Run ```read_from_serial.read_microtops_gui()``` 
 4. Input the COM port and name of the file to save data to
 
 **Processing data from the Microtops II sun photometer**
